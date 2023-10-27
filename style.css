@@ -2,6 +2,7 @@
     background-color: rgb(1, 9, 9);
     width: 100%;
     display: flex;
+    border-radius: 20px;
     height: 200px;
     align-items: center;
 }
@@ -26,15 +27,6 @@ h2{
     flex: 1;
 
 }
-nav{
-    background-color: #0c0a0a;
-    color: #fff;
-    text-align: center;
-}
-nav ul{
-    list-style-type: none;
-    padding: 0;
-}
 
 
 .List-Data{
@@ -45,18 +37,23 @@ nav ul{
     font-size: 3rem;
     line-height: 7rem;
     padding-bottom: 40px;
+    break-after: always;
 }
 .List-Data ul{
     list-style: none;
     padding: 0;
+    border-radius: 20px;
+    break-after: row;
 }
 .List-Data ul li{
     padding: 10px 0;
+    border-radius: 20px;
     border-top: 2px solid black
-    ;
+    
 }
 .List-Data ul li:first-child{
     border-top: none;
+    border-radius: 20px;
 }
 h3{
     align-items: center;
